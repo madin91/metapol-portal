@@ -1,8 +1,9 @@
 # metapol-app Installation
 
-<h3> Place all files to the root folder, then move all files of public folder to your website public_html or www directory.</h3>
+<h3> Place all files to the root folder, then move all files in public folder to your website public_html or www directory.</h3>
 
-<h4> Requirement for Installation</h4>
+<h4> Requiremens</h4>
+
  // FOLDER PLACEMENT // <br>
     |---root <br>
     |---|---metapol_app <br>
@@ -19,7 +20,7 @@
 
 <h4>You must set these folders; framework, logs, kyc-files, cache permission to 775 as above. Sometimes based on server permission 775 may not work, then you have to set 777</h4>
 
-<h3>Before starting the installation process please confirm server requirements as bellow.</h3>
+<h3>Before starting the installation process please confirm server requirements as below.</h3>
 
 <li> - PHP >= 7.3 (support upto 7.4)
 <li> - OpenSSL PHP Extension
