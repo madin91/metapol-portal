@@ -1,25 +1,25 @@
 # metapol-app Installation
 
-<h3> Place all files to the root folder, then move all files of public folder to your website public_html or www directory.
+<h3> Place all files to the root folder, then move all files of public folder to your website public_html or www directory.</h3>
 
-<li> Requirement for Installation
-    // FOLDER PLACEMENT //
-    |---root
-    |---|---metapol_app
-    |---|---public (or public_html)
-    |---|---|---index.php
-Please Note:
-<li><h3>The 'metapol_app' and 'public' folder are siblings.
+<h4> Requirement for Installation</h4>
+ // FOLDER PLACEMENT // <br>
+    |---root <br>
+    |---|---metapol_app <br>
+    |---|---public (or public_html) <br>
+    |---|---|---index.php <br>
 
-metapol_app/storage/framework/        # 775
-metapol_app/storage/logs/             # 775
-metapol_app/storage/app/kyc-files/    # 775
-metapol_app/storage/app/public/       # 775
-metapol_app/bootstrap/cache/          # 775
+<h3><strong>Please Note:</strong>The 'metapol_app' and 'public' folder are siblings.</h3
 
-<li><h4>You must set these folders framework, logs, kyc-files, cache permission to 775 as above. Sometimes based on server permission 775 may not work, then you have to set 777
+- metapol_app/storage/framework/        # 775<br>
+- metapol_app/storage/logs/             # 775<br>
+- metapol_app/storage/app/kyc-files/    # 775<br>
+- metapol_app/storage/app/public/       # 775<br>
+- metapol_app/bootstrap/cache/          # 775<br>
 
-<li><h3>Before start the installation process please fulfill the server requirements as bellow.
+<h4>You must set these folders; framework, logs, kyc-files, cache permission to 775 as above. Sometimes based on server permission 775 may not work, then you have to set 777</h4>
+
+<h3>Before starting the installation process please confirm server requirements as bellow.</h3>
 
 <li> - PHP >= 7.3 (support upto 7.4)
 <li> - OpenSSL PHP Extension
@@ -32,14 +32,14 @@ metapol_app/bootstrap/cache/          # 775
 <li> - BCMath PHP Extension
 <li> - FileInfo PHP Extension
 
-<li><h3>Manual Installation Process
-<li><h3>Step One: Configure .ENV File
-<li><h3>Please go to metapol_app folder and edit the .env file. On this file please use bellow code and update accordingly to your information and save the file.
+<h4>Manual Installation Process</h4><br>
+Step One: Configure .ENV File
+<h4>Go to metapol_app folder and edit the .env file.</h4>
 
-<li><h3>Change these value -
-<li><h3>APP_NAME, APP_URL, DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD
+<h4>Change these values - APP_NAME, APP_URL, DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD</h4>
 
-<pre><li>APP_NAME='YOUR_APP_NAME_HERE'
+<pre>
+<li>APP_NAME='YOUR_APP_NAME_HERE'
 <li>APP_VERSION='1.0.0'
 <li>APP_ENV=production
 <li>APP_KEY=base64:bMzV/BygkgeonjHpn5c7NkwcAi8ckl+tBIEfNfOqgmw=
@@ -73,14 +73,15 @@ metapol_app/bootstrap/cache/          # 775
 
 <li>PUSHER_APP_ID=
 <li>PUSHER_APP_KEY=
- <li>PUSHER_APP_SECRET=</pre>
-Step Two: Installed File placement
+<li>PUSHER_APP_SECRET=</pre>
+    
+<h3>Step Two: Installed File placement</h3>
 <li>Copy the installed file (found under manual-install-files folder) and placed into metapol_app/storage folder.
 
-Step Three: Import Dummy SQL File
+<h3>Step Three: Import Dummy SQL File</h3>
 <li>Import the sql file dummy_app.sql into database.
 
-Final Step
-Once above steps are complete,go to your website url. https://your-domain.com/ & register first your Super Admin account. Then login to your account and configure the Website settings, Email settings, Payment settings and ICO Stages etc.
+<h4>Final Step</h4>
+<h4>Once above steps are complete,go to your website url. https://your-domain.com/ & register first your Super Admin account. Then login to your account and configure the Website settings, Email settings, Payment settings and ICO Stages etc.</h4>
 
-<li><h2>Note: First registered user will be always super-admin privilege.
+<h4>Note: First registered user will be always super-admin privilege.</h4>
